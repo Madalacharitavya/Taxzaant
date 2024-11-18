@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom: 100px;
+    background-color: rgb(110, 210, 110);
+}
+.menu{
+    background-color: orange;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.name{
+    color:white;
+    margin-right: 500px;
+}
+.span{
+    color:red;
+}
+.menu ul{
+    list-style: none;
+    display:flex;
+}
+.menu ul li{
+    padding: 10px 30px;
+    position:relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.down1{
+    display:none;
+}
+.menu ul li:hover .down1{
+    display:block;
+    position:absolute;
+    top:90%;
+    left:0;
+    background-color:orange;
+}
+.down1 ul{
+    display:block;
+    margin: 20px;
+}
+.down1 ul li{
+    width:150px;
+    padding:10px;
+}
+.drop2 {
+    display:none;
+}
+.menu ul li:hover .drop2 {
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:orange;
+}
+.drop2 ul{
+    display:block;
+    margin:20px;
+}
+.drop2 ul li{
+    width:200px;
+    padding:10px;
+}
+.drop3{
+    display:none;
+}
+
+.menu ul li:hover .drop3{
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: orange;
+}
+.drop3 ul{
+    display:block;
+    margin:20px;
+}
+.drop3 ul li{
+    width:150px;
+    padding:10px;
+}
+.mission{
+    margin-top: 100px;
+    margin-left:600px;
+}
+.mission1{
+    margin-top:40px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:100px;
+}
+.strong{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.strong1{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.vision1{
+    margin-top:60px;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:100px;
+}
+.vision{
+    background-color: grey;
+    color:white;
+    border-radius: 50px;
+}
+.final{
+    background-color: rgb(96, 197, 210);
+    border-radius:50px;
+}

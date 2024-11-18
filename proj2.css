@@ -1,0 +1,56 @@
+.main{
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 130%;
+}
+body>div{
+    border: 2px solid;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 180%;
+}
+span{
+    color: red;
+}
+.main input{
+    padding: 1%;
+    font-size: 80%;
+    outline: none;
+    margin-left: 2%;
+    border-radius: 10px;
+    width:50%;
+}
+.fna input{
+    margin-left: 56px;
+}
+.em input{
+    margin-left: 100px;
+}
+.lna input{
+    margin-left: 74px;
+}
+.ph input{
+    margin-left: 113px;
+}
+.btn{
+    margin-left: 350px;
+}
+.btn button{
+    width:120%;
+    background-color: orange;
+    color:white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 110%;
+}
